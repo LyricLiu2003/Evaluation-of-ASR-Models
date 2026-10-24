@@ -1,0 +1,32 @@
+{
+  "systems": {
+    "A": {
+      "name": "whisper_small",
+      "model_id": "openai/whisper-small",
+      "revision": null,
+      "wall_clock_s": 25.7,
+      "decoding": {
+        "language": "en",
+        "task": "transcribe",
+        "num_beams": 1,
+        "do_sample": false
+      }
+    },
+    "B": {
+      "name": "wav2vec2_base_960h",
+      "model_id": "facebook/wav2vec2-base-960h",
+      "revision": null,
+      "wall_clock_s": 10.4,
+      "decoding": {
+        "ctc": "greedy argmax",
+        "language_model": null
+      }
+    }
+  },
+  "device": "mps",
+  "python": "3.11.17",
+  "packages": {
+    "torch": "2.14.1",
+    "transformers": "5.20.0"
+  }
+}

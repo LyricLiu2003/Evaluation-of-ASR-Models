@@ -78,8 +78,6 @@ Re-running step 6 merges these rows back into the full log and prints the agreem
 
 ```
 config.py, step1–6_*.py, run_all.sh   pipeline
-HG4052_A1.ipynb                        the same pipeline as a notebook (student template, with TODOs)
-_template_original/                    the scripts as handed out, with TODO prompts
 outputs/                               aggregate tables and figures only (see .gitignore)
 REPORT.md                              write-up of the results
 ```

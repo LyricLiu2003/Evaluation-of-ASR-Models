@@ -1,0 +1,28 @@
+{
+  "NORM": {
+    "drop_angle_tags": true,
+    "drop_unintelligible": true,
+    "drop_bracketed": true,
+    "numbers_to_words": true,
+    "four_digit_years": true,
+    "expand_contractions": true,
+    "join_spelled_letters": true,
+    "drop_filler_words": true,
+    "uk_us_spelling": true
+  },
+  "FILLER_WORDS": [
+    "er",
+    "erm",
+    "hm",
+    "hmm",
+    "mhm",
+    "mm",
+    "mmm",
+    "uh",
+    "uhh",
+    "uhm",
+    "um",
+    "umm"
+  ],
+  "n_spelling_pairs": 1740
+}

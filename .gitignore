@@ -1,0 +1,34 @@
+# --- IMDA National Speech Corpus: licensed data, never commit -------------------
+# Audio, transcripts, speaker sheet and IMDA documents stay on the local machine.
+NSC/
+clips/
+DOC/
+INFO.txt
+Transcription Guidelines.pdf
+*.wav
+*.WAV
+*.TXT
+*.XLSX
+*.xlsx
+
+# --- outputs/: only aggregate numbers and figures are shared --------------------
+# Everything else in outputs/ contains reference transcripts, sentences or speaker-level text.
+outputs/*
+!outputs/audit_table.csv
+!outputs/wer_by_speaker.csv
+!outputs/wer_by_prompt.csv
+!outputs/spot_check_agreement.csv
+!outputs/normaliser_config.json
+!outputs/run_info.json
+!outputs/fig1_wer_by_group.png
+!outputs/fig2_wer_by_speaker.png
+
+# --- Python / OS ---------------------------------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# --- Student templates: not published -------------------------------------------
+_template_original/
+HG4052_A1.ipynb

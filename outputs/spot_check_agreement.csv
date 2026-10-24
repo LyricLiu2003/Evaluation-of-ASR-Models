@@ -1,0 +1,10 @@
+auto_category,confidence,ok,changed,unsure,agreement %
+disfluency,high,2,0,0,100.0
+disfluency,medium,0,0,1,
+hallucination,low,0,0,1,
+hallucination,medium,2,0,0,100.0
+normalisation artefact,high,7,0,0,100.0
+out-of-vocabulary word or proper name,medium,9,0,0,100.0
+phonetically plausible substitution,low,6,1,5,86.0
+unclassified,low,0,1,11,0.0
+all,,26,2,18,93.0
